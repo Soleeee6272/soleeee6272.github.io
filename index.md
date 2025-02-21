@@ -1,14 +1,16 @@
+markdown
+Copy
 ---
 layout: default
 ---
 <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-*   ###    [**page1**](./another-page.html).
+Text can be **bold**, _italic_, ~~strikethrough~~, or `keyword`.
 
-*   ###    [**page2**](./another-page1.html).
+* ### [**Page 1**](./another-page.html)
+* ### [**Page 2**](./another-page1.html)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+There should be whitespace between paragraphs. We recommend including a README or a file with information about your project.
 
 # Header 1
 
@@ -20,10 +22,9 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-```py
-// test.
+```python
+# Test
 print("hello world")
-```
 
 
 ### There's a horizontal rule below this.
