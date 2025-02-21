@@ -53,7 +53,7 @@ print("hello world")
 
 ### Large image
 
-![Branching](https://raw.githubusercontent.com/codewithpom/dev-meme/main/images/7.png)
+![Branching](https://raw.githubusercontent.com/codewithpom/dev-meme/main/images/7.png){: style="width: 600px; height: auto;" }
 
 
 ### Definition lists can be used with HTML syntax.
