@@ -4,9 +4,9 @@ layout: default
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-### [**page1**](./another-page.html).
+### *   [**page1**](./another-page.html).
 
-### [**page2**](./another-page1.html).
+### *   [**page2**](./another-page1.html).
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
@@ -39,19 +39,19 @@ print("hello world")
 
 ### And an ordered list:
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+1.  prova1
+1.  prova2
+1.  prova3
+1.  prova3
 
 ### And a nested list:
 
 
-### Small image
+### test1
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### Large image
+### test2
 
 ![Branching](https://raw.githubusercontent.com/codewithpom/dev-meme/main/images/7.png){: style="width: 600px; height: auto;" }
 
