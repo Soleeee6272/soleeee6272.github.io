@@ -1,3 +1,4 @@
+<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 ---
 layout: default
 ---
@@ -77,3 +78,5 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 [original template](https://github.com/pages-themes/hacker).
+
+
