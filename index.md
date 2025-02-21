@@ -1,8 +1,7 @@
-<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 ---
 layout: default
 ---
-
+<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 *   ###    [**page1**](./another-page.html).
