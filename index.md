@@ -91,7 +91,7 @@ print("hello world")
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Branching](https://i.ytimg.com/an_webp/Vj1uh89v-Sc/maxresdefault.jpg)
 
 
 ### Definition lists can be used with HTML syntax.
