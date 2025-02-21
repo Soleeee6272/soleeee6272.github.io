@@ -25,7 +25,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 ### Header 3
 
 ```py
-// Javascript code with syntax highlighting.
+// test.
 print("hello world")
 ```
 
