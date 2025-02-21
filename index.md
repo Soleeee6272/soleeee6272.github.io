@@ -4,11 +4,9 @@ layout: default
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-[page1](./another-page.html).
+### [**page1**](./another-page.html).
 
-[page2](./another-page1.html).
-
-There should be whitespace between paragraphs.
+### [**page2**](./another-page1.html).
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
@@ -22,34 +20,11 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
-
 ```py
 // test.
 print("hello world")
 ```
 
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
 
 ### There's a horizontal rule below this.
 
@@ -71,19 +46,6 @@ print("hello world")
 
 ### And a nested list:
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
 
 ### Small image
 
@@ -91,7 +53,7 @@ print("hello world")
 
 ### Large image
 
-![Branching](https://i.ytimg.com/an_webp/Vj1uh89v-Sc/maxresdefault.jpg)
+![Branching](https://raw.githubusercontent.com/codewithpom/dev-meme/main/images/7.png)
 
 
 ### Definition lists can be used with HTML syntax.
