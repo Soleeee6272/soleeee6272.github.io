@@ -24,4 +24,9 @@ layout: default
 ## [betterplayer](https://chromewebstore.google.com/detail/betterplayer-a-modern-vid/dbcfpoaehlbfdeeaonihhkoocmjgalco)
 _yay_
 
+
+
+# [sauce1](https://piracy.vercel.app/misc/browser-extensions#misc-browser-extensions)
+# [sauce2](https://www.privacytools.io/)
+
 [back](./)
