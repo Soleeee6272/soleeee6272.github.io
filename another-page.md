@@ -2,7 +2,8 @@
 layout: default
 ---
 
-#### extension list
+# extension list
+## [uMatrix](https://chromewebstore.google.com/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf)
 ## [jstorrent per i torrent](https://chromewebstore.google.com/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb)
 ## [browse with tor](https://chromewebstore.google.com/detail/onion-browser-button/fockhhgebmfjljjmjhbdgibcmofjbpca)
 ## [cache cleaner](https://chromewebstore.google.com/detail/cache-cleaner/dlbokacakimelkoonlnbmpepoihfmehh)
@@ -26,7 +27,7 @@ _yay_
 
 
 
-# [sauce1](https://piracy.vercel.app/misc/browser-extensions#misc-browser-extensions)
-# [sauce2](https://www.privacytools.io/)
+#### [sauce1](https://piracy.vercel.app/misc/browser-extensions#misc-browser-extensions)
+#### [sauce2](https://www.privacytools.io/)
 
 [back](./)
