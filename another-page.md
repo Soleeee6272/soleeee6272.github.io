@@ -3,9 +3,9 @@ layout: default
 ---
 
 ### extension list
-[jstorrent per i torrent](https://chromewebstore.google.com/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb)
-[browse with tor](https://chromewebstore.google.com/detail/onion-browser-button/fockhhgebmfjljjmjhbdgibcmofjbpca)
-[cache cleaner](https://chromewebstore.google.com/detail/cache-cleaner/dlbokacakimelkoonlnbmpepoihfmehh)
+## [jstorrent per i torrent](https://chromewebstore.google.com/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb)
+## [browse with tor](https://chromewebstore.google.com/detail/onion-browser-button/fockhhgebmfjljjmjhbdgibcmofjbpca)
+## [cache cleaner](https://chromewebstore.google.com/detail/cache-cleaner/dlbokacakimelkoonlnbmpepoihfmehh)
 [bulk media downloader](https://chromewebstore.google.com/detail/bulk-media-downloader/ehfdcgbfcboceiclmjaofdannmjdeaoi)
 [save to webmachine](https://chromewebstore.google.com/detail/save-to-the-wayback-machi/eebpioaailbjojmdbmlpomfgijnlcemk)
 [media reaper for firefox](https://addons.mozilla.org/en-US/firefox/addon/media-reaper/)
