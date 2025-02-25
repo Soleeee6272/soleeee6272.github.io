@@ -3,6 +3,8 @@ layout: default
 ---
 
 # extension list
+## [https converter](https://chromewebstore.google.com/detail/smart-https/cmleijjdpceldbelpnpkddofmcmcaknm)
+## [ultrasurf](https://chromewebstore.google.com/detail/ultrasurf-security-privac/mjnbclmflcpookeapghfhapeffmpodij)
 ## [uMatrix](https://chromewebstore.google.com/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf)
 ## [jstorrent per i torrent](https://chromewebstore.google.com/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb)
 ## [browse with tor](https://chromewebstore.google.com/detail/onion-browser-button/fockhhgebmfjljjmjhbdgibcmofjbpca)
