@@ -7,7 +7,7 @@ layout: default
 _yay_
 
 <iframe
-    src="https://raw.githubusercontent.com/Soleeee6272/soleeee6272.github.io/refs/heads/main/tempo.html"
+    src="https://soleeee6272.github.io/tempo.html"
     width="300"
     height="200"
     style="border:none;">
