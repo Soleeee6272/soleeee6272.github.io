@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widget</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .weather-widget {
+            background: linear-gradient(135deg, #6e8efb, #4a6cf7);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 200px;
+        }
+        .weather-widget h2 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+        }
+        .weather-widget p {
+            margin: 5px 0;
+        }
+        .weather-widget img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="weather-widget">
+        <h2 id="city-name">Loading...</h2>
+        <img id="weather-icon" src="" alt="Weather Icon">
+        <p id="temperature">--°C</p>
+        <p id="weather-description">--</p>
+        <p id="humidity">Humidity: --%</p>
+    </div>
+
+    <script>
+        const apiKey = '84f4b38bb9eb4d07e211a729ad6a8f9f'; // OpenWeatherMap API key
+        const city = 'London'; // Replace with your desired city
+
+        const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${tokyo}&appid=${84f4b38bb9eb4d07e211a729ad6a8f9f}&units=metric`;
+        fetch(weatherUrl)
+            .then(response => response.json())
+            .then(data => {
+                if (data.cod === 200) {
+                    document.getElementById('city-name').textContent = data.name;
+                    document.getElementById('temperature').textContent = `${Math.round(data.main.temp)}°C`;
+                    document.getElementById('weather-description').textContent = data.weather[0].description;
+                    document.getElementById('humidity').textContent = `Humidity: ${data.main.humidity}%`;
+
+                    // Set weather icon
+                    const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+                    document.getElementById('weather-icon').src = iconUrl;
+                } else {
+                    console.error('Error fetching weather data:', data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching weather data:', error);
+            });
+    </script>
+</body>
+</html>
