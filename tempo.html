@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,7 +75,7 @@
                 return;
             }
 
-            const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${84f4b38bb9eb4d07e211a729ad6a8f9f}&units=metric`;
+            const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
             fetch(weatherUrl)
                 .then(response => response.json())
