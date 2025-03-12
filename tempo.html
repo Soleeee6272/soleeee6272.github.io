@@ -21,7 +21,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             text-align: center;
-            width: 200px;
+            width: 220px;
         }
         .weather-widget h2 {
             margin: 0 0 10px;
@@ -34,11 +34,30 @@
             width: 50px;
             height: 50px;
         }
+        .weather-widget input {
+            padding: 5px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 80%;
+        }
+        .weather-widget button {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ffdd57;
+            cursor: pointer;
+        }
+        .weather-widget button:hover {
+            background-color: #ffcc00;
+        }
     </style>
 </head>
 <body>
     <div class="weather-widget">
-        <h2 id="city-name">Loading...</h2>
+        <h2 id="city-name">Weather</h2>
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button onclick="fetchWeather()">Get Weather</button>
         <img id="weather-icon" src="" alt="Weather Icon">
         <p id="temperature">--°C</p>
         <p id="weather-description">--</p>
@@ -46,29 +65,39 @@
     </div>
 
     <script>
-        const apiKey = '84f4b38bb9eb4d07e211a729ad6a8f9f'; // OpenWeatherMap API key
-        const city = 'London'; // Replace with your desired city
+        const apiKey = '84f4b38bb9eb4d07e211a729ad6a8f9f'; // Replace with your new API key
 
-        const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=84f4b38bb9eb4d07e211a729ad6a8f9f&units=metric`;
-        fetch(weatherUrl)
-            .then(response => response.json())
-            .then(data => {
-                if (data.cod === 200) {
-                    document.getElementById('city-name').textContent = data.name;
-                    document.getElementById('temperature').textContent = `${Math.round(data.main.temp)}°C`;
-                    document.getElementById('weather-description').textContent = data.weather[0].description;
-                    document.getElementById('humidity').textContent = `Humidity: ${data.main.humidity}%`;
+        function fetchWeather() {
+            const city = document.getElementById('city-input').value;
+            if (!city) {
+                alert('Please enter a city name.');
+                return;
+            }
 
-                    // Set weather icon
-                    const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-                    document.getElementById('weather-icon').src = iconUrl;
-                } else {
-                    console.error('Error fetching weather data:', data.message);
-                }
-            })
-            .catch(error => {
-                console.error('Error fetching weather data:', error);
-            });
+            const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${84f4b38bb9eb4d07e211a729ad6a8f9f}&units=metric`;
+
+            fetch(weatherUrl)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data); // Debugging: Log the API response
+                    if (data.cod === 200) {
+                        document.getElementById('city-name').textContent = data.name;
+                        document.getElementById('temperature').textContent = `${Math.round(data.main.temp)}°C`;
+                        document.getElementById('weather-description').textContent = data.weather[0].description;
+                        document.getElementById('humidity').textContent = `Humidity: ${data.main.humidity}%`;
+
+                        // Set weather icon
+                        const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+                        document.getElementById('weather-icon').src = iconUrl;
+                    } else {
+                        alert(`Error: ${data.message}`);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching weather data:', error);
+                    alert('An error occurred. Please try again later.');
+                });
+        }
     </script>
 </body>
 </html>
