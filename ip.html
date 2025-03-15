@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My IP Information</title>
+    <style>
+        #ip-info {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre-wrap; /* Preserve formatting and allow wrapping */
+        }
+    </style>
+</head>
+<body>
+    <h1>My IP Information</h1>
+    <div id="ip-info">Loading...</div>
+
+    <script>
+        // JavaScript to fetch and display the JSON data
+        fetch('https://api.ipify.org/?format=json')
+            .then(response => response.json())
+            .then(data => {
+                // Format the JSON data as a string
+                const formattedData = JSON.stringify(data, null, 2);
+
+                // Insert the formatted data into the HTML
+                document.getElementById('ip-info').innerText = formattedData;
+            })
+            .catch(error => {
+                console.error('Error fetching IP information:', error);
+                document.getElementById('ip-info').innerText = 'Failed to load IP information.';
+            });
+    </script>
+</body>
+</html>
