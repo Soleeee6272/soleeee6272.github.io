@@ -1,18 +1,28 @@
 ---
 layout: default
 ---
-
+ 
 # extension list
 ---
 ## [https converter](https://chromewebstore.google.com/detail/smart-https/cmleijjdpceldbelpnpkddofmcmcaknm)
 ---
+## [noscript](https://chromewebstore.google.com/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm)
+---
+## [privacy badger](https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
+---
 ## [ultrasurf](https://chromewebstore.google.com/detail/ultrasurf-security-privac/mjnbclmflcpookeapghfhapeffmpodij)
+---
+## [ublock](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+---
+## [browse with tor](https://chromewebstore.google.com/detail/onion-browser-button/fockhhgebmfjljjmjhbdgibcmofjbpca)
+---
+## [clearurls](https://chromewebstore.google.com/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk)
+---
+## [localcdn](https://chromewebstore.google.com/detail/localcdn/njdfdhgcmkocbgbhcioffdbicglldapd)
 ---
 ## [uMatrix](https://chromewebstore.google.com/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf)
 ---
 ## [jstorrent per i torrent](https://chromewebstore.google.com/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb)
----
-## [browse with tor](https://chromewebstore.google.com/detail/onion-browser-button/fockhhgebmfjljjmjhbdgibcmofjbpca)
 ---
 ## [cache cleaner](https://chromewebstore.google.com/detail/cache-cleaner/dlbokacakimelkoonlnbmpepoihfmehh)
 ---
@@ -34,25 +44,15 @@ layout: default
 ---
 ## [save as](https://chromewebstore.google.com/detail/save-image-as-type/gabfmnliflodkdafenbcpjdlppllnemd)
 ---
-## [noscript](https://chromewebstore.google.com/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm)
----
 ## [imagus](https://chromewebstore.google.com/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab)
 ---
 ## [browser boost](https://chromewebstore.google.com/detail/browser-boost-strumenti-a/akknpgblpchaoebdoiojonnahhnfgnem)
----
-## [privacy badger](https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
----
-## [localcdn](https://chromewebstore.google.com/detail/localcdn/njdfdhgcmkocbgbhcioffdbicglldapd)
----
-## [clearurls](https://chromewebstore.google.com/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk)
----
-## [ublock](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 ---
 ## [betterplayer](https://chromewebstore.google.com/detail/betterplayer-a-modern-vid/dbcfpoaehlbfdeeaonihhkoocmjgalco)
 ---
 _yay_
 
-
+<span style="color: green"> Some green text </span>
 
 ---
 #### [sauce1](https://piracy.vercel.app/misc/browser-extensions#misc-browser-extensions)
