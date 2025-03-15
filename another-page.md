@@ -52,7 +52,7 @@ layout: default
 ---
 _yay_
 
-<span style="color: green"> Some green text </span>
+<span style="color: green"> ## [betterplayer](https://chromewebstore.google.com/detail/betterplayer-a-modern-vid/dbcfpoaehlbfdeeaonihhkoocmjgalco) </span>
 
 ---
 #### [sauce1](https://piracy.vercel.app/misc/browser-extensions#misc-browser-extensions)
