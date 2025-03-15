@@ -50,6 +50,9 @@ layout: default
 ---
 ## [betterplayer](https://chromewebstore.google.com/detail/betterplayer-a-modern-vid/dbcfpoaehlbfdeeaonihhkoocmjgalco)
 ---
+
+<iframe src="https://api.myip.com/" width="300" height="200" style="border:none;"> </iframe>
+
 _yay_
 
 <span style="color: green"> ## [betterplayer](https://chromewebstore.google.com/detail/betterplayer-a-modern-vid/dbcfpoaehlbfdeeaonihhkoocmjgalco) </span>
