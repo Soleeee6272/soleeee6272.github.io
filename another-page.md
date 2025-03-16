@@ -155,3 +155,144 @@ layout: default
 </div>
 
 [Back](./)
+
+
+---
+layout: default
+---
+
+# Tool List
+
+<style>
+  .tool-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .tool-list li {
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #4CAF50;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  .tool-list li:hover {
+    background-color: #e9e9e9;
+  }
+  .tool-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .tool-list a:hover {
+    color: #4CAF50;
+  }
+  .tool-list .description {
+    font-size: 0.9em;
+    color: #666;
+  }
+  .category-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #4CAF50;
+  }
+  .iframe-container {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .sauce-links {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  .sauce-links a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  .sauce-links a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+### Network Tools
+<ul class="tool-list">
+  <li>
+    <a href="https://nextdns.io/">NextDNS</a>
+    <div class="description">Privacy-focused DNS service.</div>
+  </li>
+  <li>
+    <a href="https://pi-hole.net/">Pi-hole</a>
+    <div class="description">Network-wide ad blocker.</div>
+  </li>
+  <li>
+    <a href="https://github.com/DNSCrypt/dnscrypt-proxy#readme">DNSCrypt Proxy</a>
+    <div class="description">A flexible DNS proxy with encryption.</div>
+  </li>
+  <li>
+    <a href="https://www.whonix.org/">Whonix</a>
+    <div class="description">A privacy-focused operating system.</div>
+  </li>
+  <li>
+    <a href="https://www.wireguard.com/">WireGuard</a>
+    <div class="description">Fast and secure VPN protocol.</div>
+  </li>
+  <li>
+    <a href="https://github.com/henrypp/simplewall">Simplewall</a>
+    <div class="description">A simple Windows firewall tool.</div>
+  </li>
+  <li>
+    <a href="https://safing.io/">Safing</a>
+    <div class="description">Network security and privacy software.</div>
+  </li>
+</ul>
+
+### Search Engines
+<ul class="tool-list">
+  <li>
+    <a href="https://Searx.space">Searx</a>
+    <div class="description">A privacy-respecting metasearch engine.</div>
+  </li>
+  <li>
+    <a href="https://searx.be">Searx.be</a>
+    <div class="description">A Searx instance hosted in Belgium.</div>
+  </li>
+  <li>
+    <a href="https://duckduckgo.com">DuckDuckGo</a>
+    <div class="description">A privacy-focused search engine.</div>
+  </li>
+  <li>
+    <a href="https://duckduckgo.com/">DuckDuckGo (Alternative Link)</a>
+    <div class="description">Another link to DuckDuckGo.</div>
+  </li>
+</ul>
+
+### Windows Apps
+<ul class="tool-list">
+  <li>
+    <a href="https://github.com/henrypp/memreduct">Mem Reduct</a>
+    <div class="description">Lightweight real-time memory management.</div>
+  </li>
+  <li>
+    <a href="https://www.oo-software.com/en/shutup10">O&O ShutUp10</a>
+    <div class="description">Disable Windows 10 telemetry and features.</div>
+  </li>
+  <li>
+    <a href="https://timerresolution.com/">TimerResolution</a>
+    <div class="description">Adjust multimedia timer resolution for better performance.</div>
+  </li>
+</ul>
+
+<div class="iframe-container">
+  <iframe src="https://api.myip.com/" width="300" height="200" style="border:none;"></iframe>
+</div>
+
+<div class="sauce-links">
+  <strong>Sources:</strong>
+  <a href="https://piracy.vercel.app/misc/browser-extensions#misc-browser-extensions">Sauce 1</a> |
+  <a href="https://www.privacytools.io/">Sauce 2</a>
+</div>
+
+[Back](./)
+
+
+
