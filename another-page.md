@@ -287,7 +287,7 @@ layout: default
 
 <div class="sauce-links">
   <strong>Sources:</strong>
-  <a href="https://piracy.vercel.app/misc/browser-extensions#misc-browser-extensions">Sauce 1</a> |
+  <a href="https://shakil-shahadat.github.io/awesome-piracy">Sauce 1</a> |
   <a href="https://www.privacytools.io/">Sauce 2</a>
 </div>
 
